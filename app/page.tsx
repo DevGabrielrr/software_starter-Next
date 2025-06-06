@@ -11,3 +11,8 @@ const HomePage = () => {
 }
 
 export default HomePage;
+
+//Localhost: 3000
+//Localhost: 3000/about
+//Localhost: 3000/about/team
+//Localhost: 3000/products/1
