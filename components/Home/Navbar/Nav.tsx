@@ -5,7 +5,11 @@ import React, { useEffect, useState } from "react";
 import { GrTechnology } from "react-icons/gr";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Nav = () => {
+type Props = {
+  openNav: () => void;
+};
+
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -19,7 +23,11 @@ const Nav = () => {
   });
 
   return (
-    <div className={`transition-all ${navBg ? "bg-blue-900 shadow-md" : "fixed"} duration-200 h-[12vh] z-[100] fixed w-full bg-blue-900`}>
+    <div
+      className={`transition-all ${
+        navBg ? "bg-blue-600 shadow-md" : "fixed"
+      } duration-200 h-[12vh] z-[100] fixed w-full bg-blue-900`}
+    >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <div className="flex items-center space-x-2">
@@ -59,7 +67,10 @@ const Nav = () => {
           </a>
           {/* ThemeToggler */}
           {/*Burger menu*/}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-white lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-white lg:hidden"
+          />
         </div>
       </div>
     </div>
