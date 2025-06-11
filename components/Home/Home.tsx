@@ -7,6 +7,7 @@ import Software from "./Software/Software";
 import Project from "./Project/Project";
 import Review from "./Review/Review";
 import Blog from "./Blog/Blog";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Project />
       <Review />
       <Blog />
+      <Footer />
     </div>
   );
 };

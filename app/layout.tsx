@@ -23,8 +23,8 @@ export default function RootLayout({
     <html lang="pt-br" suppressHydrationWarning>
       <body className={`${font} antialiased`}>
         <Provider>
-        <ResponsiveNav />
-        {children}
+          <ResponsiveNav />
+          {children}
         </Provider>
       </body>
     </html>

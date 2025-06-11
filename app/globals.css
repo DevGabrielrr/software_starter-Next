@@ -1,4 +1,9 @@
 @import "tailwindcss";
 
+@layer components {
+  .footer_link {
+    @apply text-white font-semibold cursor-pointer text-sm hover:text-yellow-300 w-fit;
+  }
+}
 
-@custom-variant dark (&:where(.dark, .dark *)) ;
+@custom-variant dark (&:where(.dark, .dark *));
