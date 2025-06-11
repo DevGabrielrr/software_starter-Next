@@ -2,11 +2,15 @@
 <p>
 Este projeto é uma landing page moderna e responsiva para uma empresa fictícia de tecnologia chamada DevTech, desenvolvida com foco em apresentar os serviços e soluções oferecidos pela companhia de forma clara e profissional.
 
-🚀 O que o site oferece
+🔥  O que o site oferece
 O site é um exemplo de site institucional voltado para empresas de tecnologia e tem como objetivo demonstrar as principais funcionalidades que um negócio da área pode apresentar online, incluindo:
 
 Apresentação institucional: introdução da empresa, com slogan e mensagem de impacto para captar a atenção de clientes em potencial.
 
+
+
+
+https://github.com/user-attachments/assets/d8c9d292-88d3-4bee-9876-d2c55a92340c
 
 
 
