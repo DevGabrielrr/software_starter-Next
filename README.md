@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevTech — Website Institucional
+<p>
+Este projeto é uma landing page moderna e responsiva para uma empresa fictícia de tecnologia chamada DevTech, desenvolvida com foco em apresentar os serviços e soluções oferecidos pela companhia de forma clara e profissional.
 
-## Getting Started
+🚀 O que o site oferece
+O site é um exemplo de site institucional voltado para empresas de tecnologia e tem como objetivo demonstrar as principais funcionalidades que um negócio da área pode apresentar online, incluindo:
 
-First, run the development server:
+Apresentação institucional: introdução da empresa, com slogan e mensagem de impacto para captar a atenção de clientes em potencial.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+ ### 🚀 Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js 15.1.6
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- React ^19.0.0
 
-## Deploy on Vercel
+- TypeScript ^5
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Lucide React ^0.475.0
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Tailwind CSS ^3.4.1
+
+- ESLint ^9
+
+- TS-Node ^10.9.2
+
+ ### 💡 Funcionalidades
+
+- Layout 100% responsivo
+
+- Navegação intuitiva com rolagem suave
+
+- Estrutura pensada para empresas de tecnologia e startups
+
+- Componentes reutilizáveis e organizados
+
+- Código limpo e escalável para futuras integrações
+
+
+ ### 📖 Como Executar o Projeto
+
+#### Pré-requisitos
+
+Node.js e npm instalados.
+
+1. Clone o repositório:
+
+   ```bash
+     https://github.com/DevGabrielrr/software_starter-Next.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Atualize o projeto, Em seu terminal e na pasta do projeto
+
+   ```bash
+   npm install
+   ```
+
+4. Rodar o projeto
+
+   ```bash
+   npm run dev
+   ```
